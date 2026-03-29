@@ -1,0 +1,10 @@
+# 忽略Python的虚拟环境文件夹
+venv/
+env/
+
+# 忽略Python编译产生的文件
+__pycache__/
+*.pyc
+
+# 忽略我们的配置文件（因为里面有密钥！）
+config.json
